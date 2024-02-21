@@ -1,0 +1,283 @@
+# depslib dependency file v1.0
+1574779647 source:c:\users\naoki arnaud\desktop\projet 3\coords.cpp
+	"coords.h"
+	<iostream>
+
+1574777817 c:\users\naoki arnaud\desktop\projet 3\coords.h
+
+1575115097 source:c:\users\naoki arnaud\desktop\projet 3\couleur.cpp
+	"couleur.h"
+	"svgfile.h"
+	"util.h"
+	<iostream>
+
+1573657514 c:\users\naoki arnaud\desktop\projet 3\couleur.h
+	<string>
+	<cstdint>
+
+1574775295 c:\users\naoki arnaud\desktop\projet 3\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1573657514 c:\users\naoki arnaud\desktop\projet 3\util.h
+	<string>
+
+1575123676 source:c:\users\naoki arnaud\desktop\projet 3\forme.cpp
+	<iostream>
+	<string>
+	<vector>
+	"coords.h"
+	"couleur.h"
+	"forme.h"
+	"styledessin.h"
+	"svgfile.h"
+	"util.h"
+	<windows.h>
+
+1575133657 source:c:\users\naoki arnaud\desktop\projet 3\main.cpp
+	<iostream>
+	"forme.h"
+	"couleur.h"
+	"coords.h"
+	"svgfile.h"
+	"util.h"
+	"styledessin.h"
+	<list>
+	<math.h>
+
+1575130697 source:c:\users\naoki arnaud\desktop\projet 3\svgfile.cpp
+	"svgfile.h"
+	<iostream>
+	<sstream>
+
+1573655900 source:c:\users\naoki arnaud\desktop\projet 3\util.cpp
+	"util.h"
+	<random>
+	<ctime>
+	<iostream>
+	<streambuf>
+	<vector>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<iostream>
+	<thread>
+	"util.h"
+	<windows.h>
+
+1514140574 source:c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\main.cpp
+	<iostream>
+
+1573657856 source:c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\coords.cpp
+	"coords.h"
+	<iostream>
+
+1573657850 c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\coords.h
+
+1573655900 source:c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\couleur.cpp
+	"couleur.h"
+	"svgfile.h"
+	"util.h"
+	<iostream>
+
+1573657513 c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\couleur.h
+	<string>
+	<cstdint>
+
+1573655900 c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1573657513 c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\util.h
+	<string>
+
+1573655900 source:c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\svgfile.cpp
+	"svgfile.h"
+	<iostream>
+	<sstream>
+
+1573655900 source:c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\util.cpp
+	"util.h"
+	<random>
+	<ctime>
+	<iostream>
+	<streambuf>
+	<vector>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<iostream>
+	<thread>
+	"util.h"
+	<windows.h>
+
+1573658015 c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\forme.h
+	<iostream>
+	<string>
+	<vector>
+	"coords.h"
+	"couleur.h"
+	"styledessin.h"
+	"svgfile.h"
+	"util.h"
+
+1573657304 c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\robot.h
+	<iostream>
+	<string>
+	<vector>
+	"coords.h"
+	"couleur.h"
+	"forme.h"
+	"robot.h"
+	"styledessin.h"
+	"svgfile.h"
+	"util.h"
+
+1573657513 c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\styledessin.h
+	"couleur.h"
+
+1573657740 source:c:\users\utilisateur\documents\ece\ing 2\informatique\td tp\projet 3\forme.cpp
+	<iostream>
+	<string>
+	<vector>
+	"coords.h"
+	"couleur.h"
+	"forme.h"
+	"styledessin.h"
+	"svgfile.h"
+	"util.h"
+
+1575137046 c:\users\naoki arnaud\desktop\projet 3\forme.h
+	<iostream>
+	<list>
+	<string>
+	<vector>
+	"coords.h"
+	"couleur.h"
+	"styledessin.h"
+	"svgfile.h"
+	"util.h"
+
+1573657514 c:\users\naoki arnaud\desktop\projet 3\styledessin.h
+	"couleur.h"
+
+1574772768 source:c:\users\naoki arnaud\desktop\projet 3\robot.cpp
+	"robot.h"
+
+1574772755 c:\users\naoki arnaud\desktop\projet 3\robot.h
+	"forme.h"
+
+1575210165 source:c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\coords.cpp
+	"coords.h"
+	<iostream>
+
+1575202368 c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\coords.h
+
+1575202368 source:c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\couleur.cpp
+	"couleur.h"
+	"svgfile.h"
+	"util.h"
+	<iostream>
+
+1575202368 c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\couleur.h
+	<string>
+	<cstdint>
+
+1575202369 c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1575202369 c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\util.h
+	<string>
+
+1575208321 source:c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\forme.cpp
+	<iostream>
+	<string>
+	<vector>
+	"coords.h"
+	"couleur.h"
+	"forme.h"
+	"styledessin.h"
+	"svgfile.h"
+	"util.h"
+	<windows.h>
+
+1575210165 c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\forme.h
+	<iostream>
+	<list>
+	<string>
+	<vector>
+	"coords.h"
+	"couleur.h"
+	"styledessin.h"
+	"svgfile.h"
+	"util.h"
+
+1575202369 c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\styledessin.h
+	"couleur.h"
+
+1575202369 source:c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\robot.cpp
+	"robot.h"
+
+1575202369 c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\robot.h
+	"forme.h"
+
+1575202369 source:c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\svgfile.cpp
+	"svgfile.h"
+	<iostream>
+	<sstream>
+
+1575202369 source:c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\util.cpp
+	"util.h"
+	<random>
+	<ctime>
+	<iostream>
+	<streambuf>
+	<vector>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<iostream>
+	<thread>
+	"util.h"
+	<windows.h>
+
+1575202834 source:c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\lecture.cpp
+	"lecture.h"
+
+1575210165 c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\lecture.h
+	<iostream>
+	<sstream>
+	<fstream>
+	<vector>
+
+1575210165 source:c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\main.cpp
+	<iostream>
+	"forme.h"
+	"couleur.h"
+	"coords.h"
+	"svgfile.h"
+	"util.h"
+	"styledessin.h"
+	<list>
+	<math.h>
+	"lecture.h"
+
+1575210165 source:c:\users\utilisateur\documents\ece\ing 2\informatique\projet 3\projet 3\ajouter.cpp
+	<iostream>
+	"forme.h"
+	"couleur.h"
+	"coords.h"
+	"svgfile.h"
+	"util.h"
+	"styledessin.h"
+	<list>
+	<math.h>
+	"lecture.h"
+
