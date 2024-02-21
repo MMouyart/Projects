@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS `item`  (
+    `idItem` INT NOT NULL AUTO_INCREMENT ,
+	`idSeller` INT NOT NULL,
+	`price` int NOT NULL ,
+    `description` VARCHAR( 500 ) NOT NULL ,
+    `category` VARCHAR( 50 ) NOT NULL ,
+    `imgName` VARCHAR( 50 ) NOT NULL ,
+	`imgType` varchar(50),
+	`imgTaille` varchar(20),
+	`imgDesc` varchar(20),
+	`imgBlob` BLOB,
+	`typeOfSell` varchar(50),
+	`bought` boolean NOT NULL,
+	 PRIMARY KEY ( `idItem` ),
+	FOREIGN KEY (`idSeller`) REFERENCES `sellers`(`idSeller`)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;

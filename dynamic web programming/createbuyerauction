@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `buyerauction`  (
+    `idBuyerAuction` INT NOT NULL AUTO_INCREMENT ,
+	`idBuyer` int NOT NULL,
+	`idItem` int,
+    `auctionStartPrice` int NOT NULL ,
+    `startDate` DATE NOT NULL ,
+    `endDate` DATE NOT NULL ,
+    PRIMARY KEY ( `idBuyerAuction` ),
+	FOREIGN KEY (`idBuyer`) REFERENCES `buyers`(`idBuyer`),
+	FOREIGN KEY (`idItem`) REFERENCES `item`(`idItem`)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;

@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS `transactions`  (
+    `idTr` INT NOT NULL AUTO_INCREMENT ,
+	`idSeller` int NOT NULL,
+	`idBuyer` int NOT NULL,
+    `idBIN` int  ,
+    `idBO` int  ,
+    `idAuction` int ,
+    `price` int NOT NULL ,
+    PRIMARY KEY ( `idTr` )
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;

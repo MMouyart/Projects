@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS`buyers`  (
+    `idBuyer` INT NOT NULL AUTO_INCREMENT ,
+    `lastName` VARCHAR( 50 ) NOT NULL ,
+    `firstName` VARCHAR( 50 ) NOT NULL ,
+    `address` VARCHAR( 50 ) NOT NULL ,
+    `postalCode` VARCHAR( 50 ) NOT NULL ,
+	`city` VARCHAR( 50 ) NOT NULL ,
+    `phoneNumber` int NOT NULL ,
+	`email` VARCHAR( 50 ) NOT NULL ,
+	`pwd` VARCHAR( 50 ) NOT NULL ,
+	`cardNumber` varchar(20) NOT NULL ,
+	`cardExpDate` varchar(20) NOT NULL ,
+	`cardCryptogram` int NOT NULL ,
+    PRIMARY KEY ( `idBuyer` )
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `buyers` (`lastName` , `firstName`,`address`, `city`, `postalCode`, `phoneNumber`, 
+ `email`, `pwd`, `cardNumber`, `cardExpDate`, `cardCryptogram` ) VALUES
+('Lacaze', 'Gilles', '1 avenue Bonaparte', 'Marseille', '51000', '0645983564', 'g.lacaze@gmail.com', 'ilovemaithili', '203052649875', '06/12/2024', '664'), 
+('John', 'Catherine', '303 1st Avenue', 'Brixton', '65302', '0634598725', 'cathlacaze@outlook.com', 'ilovejava', '640231956879', '03/10/2024', '125');

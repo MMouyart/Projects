@@ -1,0 +1,30 @@
+CREATE TABLE IF NOT EXISTS `sellers`  (
+    `idSeller` INT NOT NULL AUTO_INCREMENT ,
+    `lastName` VARCHAR( 50 ) NOT NULL ,
+    `firstName` VARCHAR( 50 ) NOT NULL ,
+    `address` VARCHAR( 50 ) NOT NULL ,
+    `postalCode` VARCHAR( 50 ) NOT NULL ,
+	`city` VARCHAR( 50 ) NOT NULL ,
+    `phoneNumber` int NOT NULL ,
+	`email` VARCHAR( 50 ) NOT NULL ,
+	`pwd` VARCHAR( 50 ) NOT NULL ,
+	`cardNumber` varchar(20) NOT NULL ,
+	`cardExpDate` varchar(20) NOT NULL ,
+	`cardCryptogram` int NOT NULL ,
+	`profileimgName` VARCHAR( 50 ) NOT NULL ,
+	`profileimgType` varchar(50),
+	`profileimgTaille` varchar(20),
+	`profileimgDesc` varchar(20),
+	`profileimgBlob` BLOB,
+	`backgroundimgName` VARCHAR( 50 ) NOT NULL ,
+	`backgroundimgType` varchar(50),
+	`backgroundimgTaille` varchar(20),
+	`backgroundimgDesc` varchar(20),
+	`backgroundimgBlob` BLOB,
+    PRIMARY KEY ( `idSeller` )
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `sellers` (`lastName` , `firstName`,`address`, `city`, `postalCode`, `phoneNumber`, 
+ `email`, `pwd`, `cardNumber`, `cardExpDate`, `cardCryptogram` ) VALUES
+('labase', 'john', '1 rue des meres', 'aix', '61230', '0645326897', 'j.labase@gmail.com', 'vivajava', '265420652031', '06/02/2023', '614'), 
+('raoulte', 'didi', '201 avenue des pardons', 'avis les eaux', '12305', '07456897', 'didiraoulte@outlook.com', 'iamyou', '654123549875', '03/12/2026', '625');

@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `bestOffer`  (
+    `idBO` INT NOT NULL AUTO_INCREMENT ,
+	`idBuyer` int NOT NULL,
+	`idItem` int,
+    `priceOffer` int NOT NULL ,
+    `nbOfferd` int NOT NULL ,
+    `status` boolean NOT NULL ,
+    PRIMARY KEY ( `idBO` ),
+	FOREIGN KEY (`idItem`) REFERENCES `item`(`idItem`),
+	FOREIGN KEY (`idBuyer`) REFERENCES `buyers`(`idBuyer`)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;

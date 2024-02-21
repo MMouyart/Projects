@@ -1,0 +1,33 @@
+CREATE TABLE `image` (
+    `img_id` INT NOT NULL AUTO_INCREMENT ,
+    `img_nom` VARCHAR( 50 ) NOT NULL ,
+    `img_taille` VARCHAR( 25 ) NOT NULL ,
+    `img_type` VARCHAR( 25 ) NOT NULL ,
+    `img_desc` VARCHAR( 100 ) NOT NULL ,
+    `img_blob` BLOB NOT NULL ,
+	`img_category` VARCHAR(25) NOT NULL,
+    PRIMARY KEY ( `img_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+INSERT INTO `image` (`img_nom` , `img_category`) VALUES
+( 'cart.jpg', 'stock'),
+( 'fb.png', 'stock'),
+( 'headband_Your_Market.jpg', 'stock'),
+( 'headband_research.jpg', 'stock'),
+( 'home.jpg', 'stock'),
+( 'pin.jpg', 'stock'),
+('shopping-cart.png', 'stock'),
+('twt.png', 'stock'),
+('i1.jpg', 'stock'),
+('i2.jpg', 'stock'),
+('i3.jpg', 'stock'),
+('i4.jpg', 'stock'),
+('image1.jpg', 'stock'),
+('image2.jpg', 'stock'),
+('image3.jpg', 'stock'),
+('image4.jpg', 'stock'),
+('left.jpg', 'stock'),
+('pin.png', 'stock'),
+('red.jpg', 'stock'),
+('right.jpg', 'stock');

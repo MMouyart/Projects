@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS `admin`(
+`idAdmin` INT NOT NULL AUTO_INCREMENT ,
+`mail` VARCHAR( 50 ) NOT NULL ,
+`pwd` VARCHAR( 50 ) NOT NULL ,
+`fname` varchar(50) NOT NULL,
+`lname` varchar(50) NOT NULL,
+ PRIMARY KEY ( `idAdmin` )
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `admin` (`idAdmin`, `mail`, `pwd`, `fname`, `lname`) VALUES
+(1, 'sarah.pardon@edu.ece.fr', 'desole', 'Sarah', 'Pardon'),
+(2, 'matthieu.mouyart@edu.ece.fr', 'ilovebond', 'Matthieu', 'Mouyart');

@@ -1,0 +1,31 @@
+CREATE TABLE IF NOT EXISTS `images` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nameImage` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `images`
+--
+
+INSERT INTO `images` (`nameImage`) VALUES
+( 'cart.jpg'),
+( 'fb.png'),
+( 'headband_Your_Market.jpg'),
+( 'headband_research.jpg'),
+( 'home.jpg'),
+( 'pin.jpg'),
+('shopping-cart.png'),
+('twt.png'),
+('i1.jpg'),
+('i2.jpg'),
+('i3.jpg'),
+('i4.jpg'),
+('image1.jpg'),
+('image2.jpg'),
+('image3.jpg'),
+('image4.jpg'),
+('left.jpg'),
+('pin.png'),
+('red.jpg'),
+('right.jpg');
