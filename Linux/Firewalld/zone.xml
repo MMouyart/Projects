@@ -15,7 +15,7 @@
   </rule>
   <!-- The following line specifies that all rules made for specific ICMP messages should be reversed (e.g. a rule accepting echo-request will now reject it) -->
   <icmp-block-inversion/>
-  <!-- The following lines specify which ICMP messages should be blocked (remember that combined with icmp-block-inversion the effect will be reverted)
+  <!-- The following lines specify which ICMP messages should be blocked (remember that combined with icmp-block-inversion the effect will be reverted) -->
   <icmp-block name="echo-request"/>
   <icmp-block name="echo-reply"/>
   <!-- The following block specifies a rule that uses an ipset for the ip source -->
